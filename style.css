@@ -92,3 +92,99 @@ body {
     border: 0.06rem solid #ffff;
     border-radius: 3rem;
 }
+
+/*********************  SECTION-ONE BEGINS ********************/
+.section-1 .section-header {
+    margin: 10rem auto 0;
+    text-align: center;
+}
+
+.section-1 .section-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 .section-body .section-image {
+    margin-top: 5rem;
+}
+
+section-1 .section-body .section-image img {
+    display: block;
+    margin: auto;
+    /* padding-right: 9rem; */
+    width: 35rem;
+}
+
+.section-1 .section-body .section-text {
+    margin-top: 6rem;
+}
+
+.section-1 .section-body .section-text .section-text-introducing .introducing-header {
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.section-1 .section-body .section-text .section-text-introducing .introducing-text {
+    color: hsl(207, 13%, 34%);
+    margin-top: 3em;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.section-1 .section-body .section-text .section-text-robust .robust-header {
+    padding: 0 8rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.section-1 .section-body .section-text .section-text-robust .robust-text {
+    color: hsl(207, 13%, 34%);
+    margin-top: 3rem;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+/******************** SECTION-ONE ENDS ********************/
+
+
+/******************** SECTION-TWO BEGINS ********************/
+.section-2 {
+    background-color: hsl(237, 23%, 32%);
+    margin-top: 35rem;
+    border-radius: 0 9rem 0 9rem;
+    background-image: url(/images/bg-pattern-circles.svg);
+    background-position-y: -28rem;
+    background-position-x: -13rem;
+    background-repeat: no-repeat;
+    background-size: 60rem;
+    position: relative;
+}
+
+.section-2 .infrastructure-image img {
+    /* background-color: blue; */
+    width: 38rem;
+    position: relative;
+    top: -19rem;
+}
+
+.section-2 .infrastucture-text {
+    position: relative;
+    top: -18rem;
+}
+
+.section-2 .infrastucture-text .infrasturcture-text-header {
+    text-align: center;
+    padding: 0 5rem;
+}
+
+.section-2 .infrastucture-text .infrastructure-text-body {
+    text-align: center;
+    padding: 0 4rem;
+    margin-top: 3rem;
+    line-height: 2.5rem;
+}
+
+/******************** SECTION-TWO ENDS ********************/
+
+
+/********************MEDIA QUERRIES********************/
