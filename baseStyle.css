@@ -1,10 +1,19 @@
  .headings{
     color:  hsl(208, 49%, 24%);
 }
+.blue-text{
+    color: hsl(207, 13%, 34%);
+}
 .section-1 .section-body  .section-image{
     /* background-color: blue; */
 
 }
 .section-1 .section-body .section-text{
     /* background-color: red;  */
+}
+.section-3{
+    /* background-color: aqua; */
+}
+.footer-text{
+    opacity: .7;
 }
