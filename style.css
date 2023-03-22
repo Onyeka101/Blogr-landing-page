@@ -17,6 +17,10 @@ body {
     font-family: 'Overpass', sans-serif;
     color: hsl(0, 0%, 100%);
     font-size: 1.6rem;
+    /* background-color: brown; */
+}
+.hidden{
+    display: none;
 }
 
 .heading {
@@ -45,27 +49,18 @@ body {
     margin-right: 2rem;
 }
 
-.heading .modern-1 {
+.heading .modern-text {
     margin: 12rem auto 0rem;
-    width: 15rem;
+    /* width: 15rem; */
+    text-align: center;
+    padding: 0 5rem;
     /* background-color: blue; */
 }
-
-.heading .modern-2 {
-    margin: auto;
-    width: 28rem;
-}
-
-.heading .grow-audience-1 {
-    width: 25rem;
+.heading .grow-audience-text{
+    /* width: 25rem; */
+    text-align: center;
+    padding: 0 5rem;
     /* background-color: blueviolet; */
-    margin: 2rem auto 0;
-}
-
-.heading .grow-audience-2 {
-    width: 11rem;
-    /* background-color: blueviolet; */
-    margin: auto;
 }
 
 .heading .button {
@@ -94,9 +89,13 @@ body {
 }
 
 /*********************  SECTION-ONE BEGINS ********************/
+
+
 .section-1 .section-header {
     margin: 10rem auto 0;
     text-align: center;
+    /* background-color: blueviolet; */
+   
 }
 
 .section-1 .section-body {
@@ -112,7 +111,7 @@ section-1 .section-body .section-image img {
     display: block;
     margin: auto;
     /* padding-right: 9rem; */
-    width: 35rem;
+    width: 100%;
 }
 
 .section-1 .section-body .section-text {
@@ -262,3 +261,70 @@ section-1 .section-body .section-image img {
 }
 
 /********************MEDIA QUERRIES********************/
+@media screen and (min-width: 1024px){
+    html {
+        width: 100%;
+    } 
+    .hidden{
+        display: block;
+    }
+    .hamburger-logo{
+        display: none;
+    }
+    .heading {
+        background-image: url(/images/bg-pattern-intro-desktop.svg);
+        background-repeat: no-repeat;
+      background-position: center; 
+      background-position-x: -500px;
+    }
+    .heading .navigation{
+        /* background-color: burlywood; */
+    }
+    .heading .navigation .navigation-left{
+        /* background-color: blueviolet; */
+        display: flex;
+        margin: 3rem 0 0 12rem;
+        min-width: 50rem;
+        justify-content: space-between;
+    }
+    .navigation .navigation-left .navigation-links{
+        display: flex;
+        list-style-type: none;
+        padding: 1rem 0 0 0;
+    }
+    .navigation .navigation-left .navigation-links a{
+        margin: 4rem 2rem 0 0;
+        color: white;
+        text-decoration: none;
+    }
+    .heading .navigation .navigation-right{
+        /* background-color: cadetblue; */
+        margin-right: 12rem;
+        display: flex;
+    }
+    .heading .navigation .navigation-right .navigation-cta-login{
+        margin:3rem 2rem 0 0;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+    .heading .navigation .navigation-right .btn{
+        margin-left:2rem;
+        padding: 0 4rem;
+        color: rgba(255, 61, 84, 0.8);
+        background-color: white;
+        border-radius: 15rem;
+        border: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .heading .modern-text{
+    /* background-color: blue; */
+    width: 100rem;    
+    font-size: 5rem;
+    }
+    .heading .grow-audience-text{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+} 
