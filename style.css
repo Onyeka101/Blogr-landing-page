@@ -233,33 +233,75 @@ section-1 .section-body .section-image img {
     text-align: center;
     margin-top: 6rem;
 }
-.footer .product .product-body{
+.footer .product .product-text{
     margin-top: 2rem;
     padding: 0 15rem;
     text-align: center;
    line-height: 2.5rem;
 }
+.footer .product .product-text li{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.footer .product .product-text li a{
+    text-decoration: none;
+    color:hsl(240, 2%, 79%);
+    padding: 1rem;
+}
+.footer .product .product-text li a:hover{
+    background-color: hsl(356, 100%, 66%);    
+}
 .footer .company .company-header{
     text-align: center;
     margin-top: 6rem;  
 } 
-.footer .company .company-body{
+.footer .company .company-text{
     margin-top: 2rem;
     padding: 0 16rem;
     text-align: center;
    line-height: 2.5rem;
+}
+.footer .company .company-text li{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.footer .company .company-text li a{
+    text-decoration: none;
+    color:hsl(240, 2%, 79%);
+    padding: 1rem;
+}
+.footer .company .company-text li a:hover{
+    background-color: hsl(356, 100%, 66%);  
 }
 .footer .connect .connect-header{
     text-align: center;
     margin-top: 6rem;  
 } 
-.footer .connect .connect-body{
+.footer .connect .connect-text{
     margin-top: 2rem;
     padding: 0 16rem;
     text-align: center;
    line-height: 2.5rem;
 }
+.footer .connect .connect-text li{
+    list-style-type: none;
+    padding-top: 0.5rem;
+}
 
+.footer .connect .connect-text li a{
+    text-decoration: none;
+    color:hsl(240, 2%, 79%) ;
+    padding: 1rem;
+}
+.footer .connect .connect-text li a:hover{
+    background-color: hsl(356, 100%, 66%);
+}
+.attribution{
+    padding-top: 5rem;
+}
+
+/********************MEDIA QUERRIES********************/
+/********************MEDIA QUERRIES********************/
 /********************MEDIA QUERRIES********************/
 @media screen and (min-width: 1024px){
     html {
@@ -467,7 +509,7 @@ section-1 .section-body .section-image img {
     .footer .product .product-header{
         text-align: left;
     }
-    .footer .product .product-body{
+    .footer .product .product-text{
         text-align: left;
         /* background-color: darkgoldenrod; */
         padding: 0 7rem 0 0;
@@ -483,7 +525,7 @@ section-1 .section-body .section-image img {
     .footer .company .company-header{
         text-align: left; 
     }
-    .footer .company .company-body{
+    .footer .company .company-text{
         padding: 0 10rem 0 0;
         line-height: 3.5rem;
         margin-top: 3rem;  
@@ -497,7 +539,7 @@ section-1 .section-body .section-image img {
     .footer .connect .connect-header{
         text-align: left;  
     }
-    .footer .connect .connect-body{
+    .footer .connect .connect-text{
         padding: 0 10rem 0 0;
         line-height: 3.5rem;
         margin-top: 3rem;  
