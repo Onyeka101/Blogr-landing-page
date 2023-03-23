@@ -268,6 +268,9 @@ section-1 .section-body .section-image img {
     .hidden{
         display: block;
     }
+    .hide{
+        display: none;
+    }
     .hamburger-logo{
         display: none;
     }
@@ -327,4 +330,179 @@ section-1 .section-body .section-image img {
         margin-top: 2rem;
         font-size: 2rem;
     }
+
+    /* ******************SECTION ONE****************** */
+    .section-1{
+        /* background-color: aqua; */
+    }
+    .section-1 .section-header{
+        font-size: 3.5rem;
+        /* z-index: 2; */
+    }
+    .section-1 .section-body{
+        /* background-color: burlywood; */
+        flex-direction: row-reverse;
+    }
+    .section-1 .section-body .right{
+        /* background-color: blueviolet; */
+        margin: -10rem -27rem 0 0;
+        /* z-index: 1; */
+    }
+   
+    .section-1 .section-body .left{
+        /* background-color: chartreuse; */
+        margin-top: 13rem;
+    }
+    .section-1 .section-body .left .section-text-introducing .introducing-header{
+        padding: 0;
+        text-align: left;
+        margin-left: 13rem;
+    }
+    .section-1 .section-body .section-text .section-text-introducing .introducing-text{
+        /* background-color: blue; */
+        padding: 0 7rem 0 0; 
+        text-align: left;
+        margin: 2rem 0 0 13rem;
+        line-height: 2.4rem;
+    }
+    .section-1 .section-body .section-text .section-text-robust .robust-header {
+        padding: 0;
+        text-align: left;   
+        margin: 7rem 0 0 13rem;
+    }
+    .section-1 .section-body .section-text .section-text-robust .robust-text{
+        padding: 0;
+        text-align: left;      
+        margin: 2rem 0 0 13rem;
+        padding: 0 7rem 0 0;
+        line-height: 2.4rem;
+    }
+    /************** SECTION-2 (INFRASTURCTURE)**************/
+    .section-2{
+        margin-top: 7rem;
+        height: 33rem;
+        background-size: 80rem;
+        background-position-y: -35rem;
+    }
+    .section-2 .infrastructure-image img {
+        top: -5rem;
+        left: 12rem;
+        width: 45rem;
+    }
+    .section-2 .infrastucture-text{
+        /* background-color: blue; */
+        position: static;
+        width: 50%;
+        float: right;
+        padding: 9rem;
+       margin-top: -49rem;
+       margin-right: 12rem;
+        
+    }
+    .section-2 .infrastucture-text .infrasturcture-text-header{
+        text-align: left;
+        padding: 0;
+    }
+    .section-2 .infrastucture-text .infrastructure-text-body{
+        text-align: left; 
+        padding: 0;
+    }
+      /************** SECTION-3 **************/
+      .section-3{
+        /* background-color: aqua; */
+      }
+      .section-3 .section-image{
+        /* background-color: blue; */
+        width: 50%;
+        float: left;
+      }
+      .section-3::after{
+        content: " ";
+        clear: both;
+        display: table;
+      }
+      .section-3 .section-image .desktop-img{
+        width: 75rem;
+        margin-top: -8rem;
+        margin-left: -21.5rem;
+      }
+    .section-3 .section-text{
+        /* background-color: chartreuse; */
+        width: 50%;
+        float: right;
+        margin-top: 2rem;
+    }
+    .section-3 .section-text .section-text-free .free-header{
+        text-align: left;
+    }
+    .section-3 .section-text .section-text-free .free-body{
+    text-align: left;
+    padding: 0 18rem 0 0;
+    margin-top: 2rem;  
+    }
+    .section-3 .section-text .section-powerful .powerful-header{
+        text-align: left;
+        margin-top: 3rem; 
+    }
+    .section-3 .section-text .section-powerful .powerful-body{
+        text-align: left;
+        padding: 0 19rem 0 0;
+        margin-top: 2rem;
+        line-height: 2.5rem; 
+    }
+    /* *****************FOOTER***************** */
+    .footer{
+        display: flex;  
+        padding-bottom: 7rem;
+    }
+    .footer .blogr-logo{
+        /* background-color: cornflowerblue; */
+        margin-left: 10rem;
+    }
+    .footer .product{
+        /* background-color: aqua; */
+        width: 20rem;
+        margin-left: 15rem;
+    }
+    .footer .product .product-header{
+        text-align: left;
+    }
+    .footer .product .product-body{
+        text-align: left;
+        /* background-color: darkgoldenrod; */
+        padding: 0 7rem 0 0;
+        line-height: 3.5rem;
+        margin-top: 3rem;
+    }
+    
+    .footer .company{
+        /* background-color: brown; */
+        width: 20rem;
+        margin-left: 10rem;
+    }
+    .footer .company .company-header{
+        text-align: left; 
+    }
+    .footer .company .company-body{
+        padding: 0 10rem 0 0;
+        line-height: 3.5rem;
+        margin-top: 3rem;  
+        text-align: left;
+    }
+    .footer .connect{
+        /* background-color: burlywood; */
+        width: 20rem;
+        margin-left: 10rem;
+    }
+    .footer .connect .connect-header{
+        text-align: left;  
+    }
+    .footer .connect .connect-body{
+        padding: 0 10rem 0 0;
+        line-height: 3.5rem;
+        margin-top: 3rem;  
+        text-align: left; 
+    }
+
+
 } 
