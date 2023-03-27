@@ -19,7 +19,9 @@ body {
     font-size: 1.6rem;
     /* background-color: brown; */
 }
-.hidden{
+
+/*******************HEADING SECTION*******************/
+.hidden {
     display: none;
 }
 
@@ -49,6 +51,11 @@ body {
     margin-right: 2rem;
 }
 
+.heading .navigation .close-icon {
+    width: 40px;
+    display: none;
+}
+
 .heading .modern-text {
     margin: 12rem auto 0rem;
     /* width: 15rem; */
@@ -56,7 +63,8 @@ body {
     padding: 0 5rem;
     /* background-color: blue; */
 }
-.heading .grow-audience-text{
+
+.heading .grow-audience-text {
     /* width: 25rem; */
     text-align: center;
     padding: 0 5rem;
@@ -88,6 +96,93 @@ body {
     border-radius: 3rem;
 }
 
+/*******************HEADING SECTION*******************/
+
+/*******************MOBILE MENU*******************/
+/*******************MOBILE MENU*******************/
+/*******************MOBILE MENU*******************/
+/*******************MOBILE MENU*******************/
+
+.mobile-menu {
+    position: fixed;
+    top: 90px;
+    top: -100%;
+    left: 78px;
+    width: 325px;
+    color: black;
+    background-color: white;
+    height: 50rem;
+}
+
+.mobile-menu .top {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.mobile-menu .middle {
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 85%;
+    border-radius: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 0;
+    font-weight: bold;
+}
+
+hr {
+    width: 85%;
+    margin: 2rem auto 0;
+}
+
+.mobile-menu .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.mobile-menu .bottom a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+}
+
+.mobile-menu .bottom button {
+    padding: 2rem 4rem;
+    background-color: hsl(353, 100%, 62%);
+    color: white;
+    border: none;
+    border-radius: 4rem;
+}
+
+.mobile-menu.active {
+    top: 90px;
+}
+
+.heading .navigation .hamburger-logo.active {
+    display: none;
+}
+
+.heading .navigation .close-icon.active {
+    display: block;
+}
+
+/*******************MOBILE MENU ENDS*******************/
+
+
+/*********************  SECTION-ONE BEGINS ********************/
+/*********************  SECTION-ONE BEGINS ********************/
 /*********************  SECTION-ONE BEGINS ********************/
 
 
@@ -95,7 +190,7 @@ body {
     margin: 10rem auto 0;
     text-align: center;
     /* background-color: blueviolet; */
-   
+
 }
 
 .section-1 .section-body {
@@ -182,179 +277,212 @@ section-1 .section-body .section-image img {
     margin-top: 3rem;
     line-height: 2.5rem;
 }
+
 /******************** SECTION-TWO ENDS ********************/
 
 
 /******************** SECTION-THREE BEGINS ********************/
 
-.section-3 .section-image img{
+.section-3 .section-image img {
     width: 40rem;
     margin: 6rem auto 0;
 }
-.section-3 .section-text .section-text-free .free-header{
+
+.section-3 .section-text .section-text-free .free-header {
     text-align: center;
     margin-top: 3rem;
 }
-.section-3 .section-text .section-text-free .free-body{
+
+.section-3 .section-text .section-text-free .free-body {
     text-align: center;
     padding: 0 4rem;
     margin-top: 3rem;
-    line-height: 2.5rem;  
+    line-height: 2.5rem;
 }
-.section-3 .section-text .section-powerful .powerful-header{
+
+.section-3 .section-text .section-powerful .powerful-header {
     text-align: center;
-    margin-top: 3rem; 
+    margin-top: 3rem;
 }
-.section-3 .section-text .section-powerful .powerful-body{
+
+.section-3 .section-text .section-powerful .powerful-body {
     text-align: center;
     padding: 0 4rem;
     margin-top: 3rem;
-    line-height: 2.5rem; 
+    line-height: 2.5rem;
 }
+
 /******************** SECTION-THREE ENDS ********************/
 
 
 
 /******************** FOOTER ********************/
 
-.footer{
-    background-color:hsl(240, 10%, 16%) ;
+.footer {
+    background-color: hsl(240, 10%, 16%);
     border-radius: 0 8rem 0 0;
     margin-top: 10rem;
     /* padding-bottom: 20rem; */
 }
-.footer .blogr-logo{
+
+.footer .blogr-logo {
     padding-top: 6rem;
     text-align: center;
     /* display: block; */
     /* background-color: blueviolet; */
 }
-.footer .product .product-header{
+
+.footer .product .product-header {
     text-align: center;
     margin-top: 6rem;
 }
-.footer .product .product-text{
+
+.footer .product .product-text {
     margin-top: 2rem;
     padding: 0 15rem;
     text-align: center;
-   line-height: 2.5rem;
+    line-height: 2.5rem;
 }
-.footer .product .product-text li{
+
+.footer .product .product-text li {
     list-style-type: none;
     margin-top: 1rem;
 }
-.footer .product .product-text li a{
+
+.footer .product .product-text li a {
     text-decoration: none;
-    color:hsl(240, 2%, 79%);
+    color: hsl(240, 2%, 79%);
     padding: 1rem;
 }
-.footer .product .product-text li a:hover{
-    background-color: hsl(356, 100%, 66%);    
+
+.footer .product .product-text li a:hover {
+    background-color: hsl(356, 100%, 66%);
 }
-.footer .company .company-header{
+
+.footer .company .company-header {
     text-align: center;
-    margin-top: 6rem;  
-} 
-.footer .company .company-text{
+    margin-top: 6rem;
+}
+
+.footer .company .company-text {
     margin-top: 2rem;
     padding: 0 16rem;
     text-align: center;
-   line-height: 2.5rem;
+    line-height: 2.5rem;
 }
-.footer .company .company-text li{
+
+.footer .company .company-text li {
     list-style-type: none;
     margin-top: 1rem;
 }
-.footer .company .company-text li a{
+
+.footer .company .company-text li a {
     text-decoration: none;
-    color:hsl(240, 2%, 79%);
+    color: hsl(240, 2%, 79%);
     padding: 1rem;
 }
-.footer .company .company-text li a:hover{
-    background-color: hsl(356, 100%, 66%);  
+
+.footer .company .company-text li a:hover {
+    background-color: hsl(356, 100%, 66%);
 }
-.footer .connect .connect-header{
+
+.footer .connect .connect-header {
     text-align: center;
-    margin-top: 6rem;  
-} 
-.footer .connect .connect-text{
+    margin-top: 6rem;
+}
+
+.footer .connect .connect-text {
     margin-top: 2rem;
     padding: 0 16rem;
     text-align: center;
-   line-height: 2.5rem;
+    line-height: 2.5rem;
 }
-.footer .connect .connect-text li{
+
+.footer .connect .connect-text li {
     list-style-type: none;
     padding-top: 0.5rem;
 }
 
-.footer .connect .connect-text li a{
+.footer .connect .connect-text li a {
     text-decoration: none;
-    color:hsl(240, 2%, 79%) ;
+    color: hsl(240, 2%, 79%);
     padding: 1rem;
 }
-.footer .connect .connect-text li a:hover{
+
+.footer .connect .connect-text li a:hover {
     background-color: hsl(356, 100%, 66%);
 }
-.attribution{
+
+.attribution {
     padding-top: 5rem;
 }
 
 /********************MEDIA QUERRIES********************/
 /********************MEDIA QUERRIES********************/
 /********************MEDIA QUERRIES********************/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     html {
         width: 100%;
-    } 
-    .hidden{
+    }
+
+    .hidden {
         display: block;
     }
-    .hide{
+
+    .hide {
         display: none;
     }
-    .hamburger-logo{
+
+    .hamburger-logo {
         display: none;
     }
+
     .heading {
         background-image: url(/images/bg-pattern-intro-desktop.svg);
         background-repeat: no-repeat;
-      background-position: center; 
-      background-position-x: -500px;
+        background-position: center;
+        background-position-x: -500px;
     }
-    .heading .navigation{
+
+    .heading .navigation {
         /* background-color: burlywood; */
     }
-    .heading .navigation .navigation-left{
+
+    .heading .navigation .navigation-left {
         /* background-color: blueviolet; */
         display: flex;
         margin: 3rem 0 0 12rem;
         min-width: 50rem;
         justify-content: space-between;
     }
-    .navigation .navigation-left .navigation-links{
+
+    .navigation .navigation-left .navigation-links {
         display: flex;
         list-style-type: none;
         padding: 1rem 0 0 0;
     }
-    .navigation .navigation-left .navigation-links a{
+
+    .navigation .navigation-left .navigation-links a {
         margin: 4rem 2rem 0 0;
         color: white;
         text-decoration: none;
     }
-    .heading .navigation .navigation-right{
+
+    .heading .navigation .navigation-right {
         /* background-color: cadetblue; */
         margin-right: 12rem;
         display: flex;
     }
-    .heading .navigation .navigation-right .navigation-cta-login{
-        margin:3rem 2rem 0 0;
+
+    .heading .navigation .navigation-right .navigation-cta-login {
+        margin: 3rem 2rem 0 0;
         text-decoration: none;
         color: white;
         font-weight: bolder;
     }
-    .heading .navigation .navigation-right .btn{
-        margin-left:2rem;
+
+    .heading .navigation .navigation-right .btn {
+        margin-left: 2rem;
         padding: 0 4rem;
         color: rgba(255, 61, 84, 0.8);
         background-color: white;
@@ -363,188 +491,221 @@ section-1 .section-body .section-image img {
         font-weight: bold;
         font-size: 1.5rem;
     }
-    .heading .modern-text{
-    /* background-color: blue; */
-    width: 100rem;    
-    font-size: 5rem;
+
+    .heading .modern-text {
+        /* background-color: blue; */
+        width: 100rem;
+        font-size: 5rem;
     }
-    .heading .grow-audience-text{
+
+    .heading .grow-audience-text {
         margin-top: 2rem;
         font-size: 2rem;
     }
 
     /* ******************SECTION ONE****************** */
-    .section-1{
+    .section-1 {
         /* background-color: aqua; */
     }
-    .section-1 .section-header{
+
+    .section-1 .section-header {
         font-size: 3.5rem;
         /* z-index: 2; */
     }
-    .section-1 .section-body{
+
+    .section-1 .section-body {
         /* background-color: burlywood; */
         flex-direction: row-reverse;
     }
-    .section-1 .section-body .right{
+
+    .section-1 .section-body .right {
         /* background-color: blueviolet; */
         margin: -10rem -27rem 0 0;
         /* z-index: 1; */
     }
-   
-    .section-1 .section-body .left{
+
+    .section-1 .section-body .left {
         /* background-color: chartreuse; */
         margin-top: 13rem;
     }
-    .section-1 .section-body .left .section-text-introducing .introducing-header{
+
+    .section-1 .section-body .left .section-text-introducing .introducing-header {
         padding: 0;
         text-align: left;
         margin-left: 13rem;
     }
-    .section-1 .section-body .section-text .section-text-introducing .introducing-text{
+
+    .section-1 .section-body .section-text .section-text-introducing .introducing-text {
         /* background-color: blue; */
-        padding: 0 7rem 0 0; 
+        padding: 0 7rem 0 0;
         text-align: left;
         margin: 2rem 0 0 13rem;
         line-height: 2.4rem;
     }
+
     .section-1 .section-body .section-text .section-text-robust .robust-header {
         padding: 0;
-        text-align: left;   
+        text-align: left;
         margin: 7rem 0 0 13rem;
     }
-    .section-1 .section-body .section-text .section-text-robust .robust-text{
+
+    .section-1 .section-body .section-text .section-text-robust .robust-text {
         padding: 0;
-        text-align: left;      
+        text-align: left;
         margin: 2rem 0 0 13rem;
         padding: 0 7rem 0 0;
         line-height: 2.4rem;
     }
+
     /************** SECTION-2 (INFRASTURCTURE)**************/
-    .section-2{
+    .section-2 {
         margin-top: 7rem;
         height: 33rem;
         background-size: 80rem;
         background-position-y: -35rem;
     }
+
     .section-2 .infrastructure-image img {
         top: -5rem;
         left: 12rem;
         width: 45rem;
     }
-    .section-2 .infrastucture-text{
+
+    .section-2 .infrastucture-text {
         /* background-color: blue; */
         position: static;
         width: 50%;
         float: right;
         padding: 9rem;
-       margin-top: -49rem;
-       margin-right: 12rem;
-        
+        margin-top: -49rem;
+        margin-right: 12rem;
+
     }
-    .section-2 .infrastucture-text .infrasturcture-text-header{
+
+    .section-2 .infrastucture-text .infrasturcture-text-header {
         text-align: left;
         padding: 0;
     }
-    .section-2 .infrastucture-text .infrastructure-text-body{
-        text-align: left; 
+
+    .section-2 .infrastucture-text .infrastructure-text-body {
+        text-align: left;
         padding: 0;
     }
-      /************** SECTION-3 **************/
-      .section-3{
+
+    /************** SECTION-3 **************/
+    .section-3 {
         /* background-color: aqua; */
-      }
-      .section-3 .section-image{
+    }
+
+    .section-3 .section-image {
         /* background-color: blue; */
         width: 50%;
         float: left;
-      }
-      .section-3::after{
+    }
+
+    .section-3::after {
         content: " ";
         clear: both;
         display: table;
-      }
-      .section-3 .section-image .desktop-img{
+    }
+
+    .section-3 .section-image .desktop-img {
         width: 75rem;
         margin-top: -8rem;
         margin-left: -21.5rem;
-      }
-    .section-3 .section-text{
+    }
+
+    .section-3 .section-text {
         /* background-color: chartreuse; */
         width: 50%;
         float: right;
         margin-top: 2rem;
     }
-    .section-3 .section-text .section-text-free .free-header{
+
+    .section-3 .section-text .section-text-free .free-header {
         text-align: left;
     }
-    .section-3 .section-text .section-text-free .free-body{
-    text-align: left;
-    padding: 0 18rem 0 0;
-    margin-top: 2rem;  
-    }
-    .section-3 .section-text .section-powerful .powerful-header{
+
+    .section-3 .section-text .section-text-free .free-body {
         text-align: left;
-        margin-top: 3rem; 
+        padding: 0 18rem 0 0;
+        margin-top: 2rem;
     }
-    .section-3 .section-text .section-powerful .powerful-body{
+
+    .section-3 .section-text .section-powerful .powerful-header {
+        text-align: left;
+        margin-top: 3rem;
+    }
+
+    .section-3 .section-text .section-powerful .powerful-body {
         text-align: left;
         padding: 0 19rem 0 0;
         margin-top: 2rem;
-        line-height: 2.5rem; 
+        line-height: 2.5rem;
     }
+
     /* *****************FOOTER***************** */
-    .footer{
-        display: flex;  
+    .footer {
+        display: flex;
         padding-bottom: 7rem;
     }
-    .footer .blogr-logo{
+
+    .footer .blogr-logo {
         /* background-color: cornflowerblue; */
         margin-left: 10rem;
     }
-    .footer .product{
+
+    .footer .product {
         /* background-color: aqua; */
         width: 20rem;
         margin-left: 15rem;
     }
-    .footer .product .product-header{
+
+    .footer .product .product-header {
         text-align: left;
     }
-    .footer .product .product-text{
+
+    .footer .product .product-text {
         text-align: left;
         /* background-color: darkgoldenrod; */
         padding: 0 7rem 0 0;
         line-height: 3.5rem;
         margin-top: 3rem;
     }
-    
-    .footer .company{
+
+    .footer .company {
         /* background-color: brown; */
         width: 20rem;
         margin-left: 10rem;
     }
-    .footer .company .company-header{
-        text-align: left; 
-    }
-    .footer .company .company-text{
-        padding: 0 10rem 0 0;
-        line-height: 3.5rem;
-        margin-top: 3rem;  
+
+    .footer .company .company-header {
         text-align: left;
     }
-    .footer .connect{
+
+    .footer .company .company-text {
+        padding: 0 10rem 0 0;
+        line-height: 3.5rem;
+        margin-top: 3rem;
+        text-align: left;
+    }
+
+    .footer .connect {
         /* background-color: burlywood; */
         width: 20rem;
         margin-left: 10rem;
     }
-    .footer .connect .connect-header{
-        text-align: left;  
+
+    .footer .connect .connect-header {
+        text-align: left;
     }
-    .footer .connect .connect-text{
+
+    .footer .connect .connect-text {
         padding: 0 10rem 0 0;
         line-height: 3.5rem;
-        margin-top: 3rem;  
-        text-align: left; 
+        margin-top: 3rem;
+        text-align: left;
     }
 
 
-} 
+}
